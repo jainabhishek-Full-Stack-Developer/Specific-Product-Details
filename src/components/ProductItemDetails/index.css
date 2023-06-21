@@ -1,0 +1,229 @@
+.productsItemDetailsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.productDetailsSuccessView {
+  width: 85%;
+  max-width: 550px;
+}
+.productsDetailsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.productImage {
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+.productName {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.priceDetails {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.ratingAndReviewCount {
+  display: flex;
+  align-content: center;
+}
+.reviewsCount {
+  color: #12022f;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  margin-left: 12px;
+}
+.productDes {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+.labelValueContainer {
+  display: flex;
+  margin-bottom: 16px;
+}
+.label {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.value {
+  color: #616e7c;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.horizontalLine {
+  border-top: 1px solid #cbced2;
+  margin: 0;
+}
+.quantityContainer {
+  display: flex;
+  align-items: center;
+}
+.quantityControllerButton {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.quantityControllerIcon {
+  color: #616e7c;
+  width: 16px;
+  height: 16px;
+}
+.quantity {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  outline: none;
+  cursor: pointer;
+}
+.addToCart {
+  font-size: 12px;
+  margin-bottom: 32px;
+}
+.similarProductsHeading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+.similarProductsList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+@media screen and (min-width: 768px) {
+  .productsItemDetailsContainer {
+    margin-top: 64px;
+  }
+  .productDetailsSuccessView {
+    width: 80%;
+    max-width: 1110px;
+  }
+  .productsDetailsContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+  .productImage {
+    width: 48%;
+    max-width: 540px;
+    max-height: 576px;
+  }
+  .product {
+    width: 48%;
+  }
+  .productName {
+    font-size: 48px;
+    margin-top: 0px;
+  }
+  .productDes {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .value {
+    font-size: 18px;
+  }
+  .quantity {
+    font-size: 24px;
+  }
+  .addToCart {
+    font-size: 14px;
+    margin-bottom: 48px;
+  }
+  .similarProductsHeading {
+    font-size: 32px;
+  }
+  .similarProductsList {
+    margin-top: 24px;
+    flex-direction: row;
+  }
+  .errorViewImage {
+    width: 540px;
+    height: 290px;
+  }
+  .productsNotFoundHeading {
+    font-size: 48px;
+  }
+}
+.productsDetailsLoaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.productsDetailsErrorViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.errorViewImage {
+  width: 300px;
+  height: 165px;
+}
+.productsNotFoundHeading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-size: 500;
+  margin-top: 48px;
+}
+.ratingContainer {
+  display: flex;
+  align-content: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 8px;
+}
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.star {
+  height: 24px;
+  width: 24px;
+}
